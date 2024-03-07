@@ -20,13 +20,6 @@
          <toggleGroup> <!-- el togglegroup servirá para que los radiobuttons pertenezcan a un mismo grupo -->
             <ToggleGroup fx:id="ola" />
          </toggleGroup>
-
-          <!--
-               <image>
-                    <image url= "@imagenes/cafe2.png"> EL @ INICIA EN DONDE ESTÁ EL FXML, EN ESTE CASO EN COM.EXAMPLE.GRIDPANE
-               </image>
-          -->
-
       </RadioButton>
       <RadioButton mnemonicParsing="false" text="RadioButton" toggleGroup="$ola" GridPane.columnIndex="1" />
    </children>
